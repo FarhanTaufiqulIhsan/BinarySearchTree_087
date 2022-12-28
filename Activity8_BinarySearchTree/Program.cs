@@ -82,7 +82,7 @@ namespace Activity8_BinarySearchTree
             if (ptr != null)
             {
                 inorder(ptr.leftchild);
-                Console.WriteLine(ptr.info + "");
+                Console.Write(ptr.info + "");
                 inorder(ptr.rightchild);
             }
         }
@@ -96,7 +96,7 @@ namespace Activity8_BinarySearchTree
             }
             if (ptr != null)
             {
-                Console.WriteLine(ptr.info + "");
+                Console.Write(ptr.info + "");
                 preorder(ptr.leftchild);
                 preorder(ptr.rightchild);
             }
@@ -113,7 +113,7 @@ namespace Activity8_BinarySearchTree
             {
                 postorder(ptr.leftchild);
                 postorder(ptr.rightchild);
-                Console.WriteLine(ptr.info + "");
+                Console.Write(ptr.info + "");
             }
         }
 
