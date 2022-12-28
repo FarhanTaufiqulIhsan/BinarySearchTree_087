@@ -87,6 +87,21 @@ namespace Activity8_BinarySearchTree
             }
         }
 
+        public void preorder(Node ptr)
+        {
+            if (ROOT == null)
+            {
+                Console.WriteLine("Tree is empty");
+                return;
+            }
+            if (ptr != null)
+            {
+                Console.WriteLine(ptr.info + "");
+                preorder(ptr.leftchild);
+                preorder(ptr.rightchild);
+            }
+        }
+
         class BinaryTree
         {
 
