@@ -117,11 +117,6 @@ namespace Activity8_BinarySearchTree
             }
         }
 
-        class BinaryTree
-        {
-
-        }
-
         static void Main(string[] args)
         {
             Program x = new Program();
