@@ -6,25 +6,29 @@ using System.Threading.Tasks;
 
 namespace Activity8_BinarySearchTree
 {
-    class Program
+    class Node
     {
-        class Node
+        public string info;
+        public Node leftchild;
+        public Node rightchild;
+
+        // COnstructor for the Node Class
+        public Node(string i, Node l, Node r)
         {
-            public string info;
-            public Node leftchild;
-            public Node rightchild;
-
-            // COnstructor for the Node Class
-            public Node(string i, Node l, Node r)
-            {
-                info = i;
-                leftchild = l;
-                rightchild = r;
-            }
-
+            info = i;
+            leftchild = l;
+            rightchild = r;
         }
 
-        /* A node class consist of*/
+    }
+    class Program
+    {
+        /* A node class consist of three things, the information, references to the right child, and references*/
+
+        class BinaryTree
+        {
+
+        }
 
         static void Main(string[] args)
         {
